@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cantact me </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <section id="contactMe">
+    <div class="contact-container">
+      <div class="container ">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <div class="form-row">
+            <div class="inputBox">
+              <input type="text" id="name" name=" " required />
+              <div class="underline"></div>
+              <label class="text">Full Name</label>
+            </div>
+           
+          </div>
+          <div class="form-row">
+            <div class="inputBox">
+              <input type="text" id="email" name="" required />
+              <div class="underline"></div>
+              <label class="text">Email</label>
+            </div>
+            <div class="inputBox">
+              <input type="text" id="phone" name=" " required />
+              <div class="underline"></div>
+              <label class="text">Mobile No.</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="inputBox textarea">
+              <textarea id="message" required="required"></textarea>
+              <div class="underline"></div>
+              <label class="text">Type your message here</label>
+            </div>
+          </div>
+          <div class="form-row submit-btn">
+            <div class="inputBox">
+              <div class="inner">
+                <input type="submit" value="submit"  onclick="submitForm()" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
